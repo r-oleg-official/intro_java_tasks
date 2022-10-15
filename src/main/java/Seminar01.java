@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Seminar01 {
     public static void main(String[] args) {
         System.out.println("bye, world!");
-        String a = "oleg";
-        String b = "oleg";
+        String a = "Oleg";
+        String b = "Oleg";
         Scanner scanner = new Scanner(System.in); // read from console
         System.out.println("Enter name");
         String name = scanner.nextLine();
