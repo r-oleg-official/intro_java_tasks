@@ -16,9 +16,10 @@ public class Seminar02Task02 {
         if(n == 0) {
             return 1;
         }
-        if (n == 1) {
+        if (n == 1 || n == Integer.MAX_VALUE) {
             return x;
         }
+        else if (n == Integer.MIN_VALUE) return (x == 1 || x == -1) ? 1 : 0;
         if (n < 0) {
             return 1 / x * myPow(x, n + 1);
         }
