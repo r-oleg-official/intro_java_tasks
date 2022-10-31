@@ -2,16 +2,19 @@ package main.java;
 
 public class Seminar02Task04 {
     public static void main(String[] args) {
-        int target = 0;
-        int n = 5;
-        findPath( 0, n, target, "");
+        System.out.println(climbStairs(2));
+        System.out.println(climbStairs(3));
     }
-    public static void findPath(int k, int n, int target, String path){
-        if (k == n) {
-            target = 0;
-            return;
+    public static int climbStairs(int n){
+        if(n <= 2)
+            return n;
+        int oneStep = 1;
+        int twoStep = 2;
+        for(int i = 3;i <= n;i++){
+            int temp = oneStep;
+            oneStep = twoStep;
+            twoStep += temp;
         }
-        findPath(k + 1, n, target, "1");
-        findPath(k + 2, n, target, "2");
+        return twoStep;
     }
 }
