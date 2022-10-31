@@ -1,3 +1,5 @@
+package main.java;
+
 public class Seminar02FindPath {
     public static void main(String[] args) {
         findPath(3, 99, 2, 2, "");
