@@ -1,4 +1,4 @@
-package main.java;
+package java_v1.seminar04;
 
 import java.util.LinkedList;
 import java.util.List;
