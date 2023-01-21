@@ -1,3 +1,5 @@
+package java_v1.seminar02;
+
 public class Seminar02Hanoi {
     public static void main(String[] args){
         hanoiTower(3, "1", "3", "2");

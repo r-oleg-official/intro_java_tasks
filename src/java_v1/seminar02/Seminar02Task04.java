@@ -1,4 +1,4 @@
-package main.java;
+package java_v1.seminar02;
 
 public class Seminar02Task04 {
     public static void main(String[] args) {

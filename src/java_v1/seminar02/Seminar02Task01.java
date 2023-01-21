@@ -1,4 +1,4 @@
-package main.java;
+package java_v1.seminar02;
 
 import java.util.ArrayList;
 import java.util.List;
