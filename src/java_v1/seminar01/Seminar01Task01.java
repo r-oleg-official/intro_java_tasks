@@ -1,3 +1,5 @@
+package java_v1.seminar01;
+
 import java.util.Arrays;
 
 public class Seminar01Task01 {

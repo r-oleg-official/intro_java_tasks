@@ -1,4 +1,4 @@
-package main.java;
+package java_v1.seminar01;
 
 import java.util.Arrays;
 
